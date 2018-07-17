@@ -461,7 +461,7 @@ transform: translateX(0)
 overflow: hidden
 }
 
-.project-link a,.project-link a:visited {
+.project-link a,.project-link, a:visited {
 color: #0088cc;
 text-decoration: underline;
 }	

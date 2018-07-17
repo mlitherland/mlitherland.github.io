@@ -460,6 +460,11 @@ transform: translateX(0)
 #blog .blog_item h1,.blog_item h1,.projects-feed .project,.row {
 overflow: hidden
 }
+
+.project-link a,.project-link a:visited {
+color: #0088cc;
+text-decoration: underline;
+}	
 .projects-feed .project {
 background: #fff;
 opacity: 0;

@@ -807,9 +807,13 @@ background: #000
 .blog_item:hover h1,.blog_item:hover h5 {
 color: #fff
 }
-.site-footer,.site-footer a,.site-footer a:visited {
+.site-footer, .site-footer a, .site-footer a:visited  {
 color: #999999;
-text-align: center;
+}
+.site-footer a:hover{
+color: #666666;
+text-decoration:underline;
+}
 }
 .blog_item:hover .abs_bg {
 -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
@@ -854,9 +858,6 @@ margin-top: 0px;
 margin: 0;
 padding: 0
 }
-.site-footer {
-padding: 20px 0 20px 0;
-}
 .right {
 float: right;
 margin: 0 0 40px 40px
@@ -877,10 +878,6 @@ float: right;
 .site-footer p {
 margin: 0;
 font-size: .8pc;
-display: inline
-}
-.site-footer a:hover {
-color: #e5e5e5
 }
 @media only screen and (min-width:401px) {.site-tagline p {
 font-size: 28px
@@ -923,7 +920,10 @@ bottom: 0;
 right: -22px
 }
 .site-footer {
-padding: 30px 0 20px 0;
+padding: 80px 0px 20px 0px;
+}
+.footer-misc {
+padding: 0px 0px 20px 0px 
 }
 
 }
@@ -1012,7 +1012,7 @@ p {
 font-size: 1.2rem
 }
 .site-footer {
-padding: 30px 0 20px 0;
+padding: 80px 20px 20px 20px;
 }
 
 }
@@ -1056,13 +1056,15 @@ padding: 60px 79px 60px calc(1px + 79px)
 font-size: 21px
 }
 .site-footer {
-padding: 3pc 0pc 2pc 0pc
+padding: 8pc 2pc 2pc 2pc 
 }
 .footer-text {
-text-align: left
+text-align: left;
+float: left
 }
 .footer-misc {
-float: right
+text-align: right;
+float: right;
 }
 .thumbnail-title {
 font-size: 28px

@@ -118,6 +118,7 @@ color: #747474
 }
 .site-title,.site-title a,.site-title a:visited {
 color: #e5e5e5
+
 }
 .article_columns_1 {
 }
@@ -215,7 +216,7 @@ padding: 0;
 width: 100%;
 background: #ffffff;
 background: rgba(255,255,255,.97);
-position: fixed;
+position: relative;
 right: 0px;
 top: 0px;
 padding: 30px;
